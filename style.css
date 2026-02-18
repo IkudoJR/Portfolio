@@ -1144,6 +1144,10 @@ body::before {
         gap: 40px;
     }
 
+    .about-image {
+        order: -1;
+    }
+    
     .services-grid {
         grid-template-columns: 1fr;
     }
@@ -1214,4 +1218,5 @@ body::before {
         height: 280px;
     }
 }
+
 
