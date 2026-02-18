@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Cyber Security Professional</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔒</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Particles Background -->
+    <div class="floating-particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">IkudoJR</div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#expertise" class="nav-link">Expertise</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Fixed Social Sidebar -->
+    <div class="social-sidebar">
+        <a href="https://www.linkedin.com/in/mohamed-alkhamisy" target="_blank" class="sidebar-icon" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+        </a>
+        <a href="https://github.com/IkudoJR" target="_blank" class="sidebar-icon" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+        </a>
+        <a href="mailto:ikudojr@gmail.com" class="sidebar-icon" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+        </a>
+        <a href="tel:+201110111026" class="sidebar-icon phone-icon" aria-label="Phone" data-phone="01110111026">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+            </svg>
+            <span class="copy-tooltip">Copied!</span>
+        </a>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+        </svg>
+    </button>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-name">Mohamed Alkhamisy</h1>
+            <h2 class="hero-title glitch" data-text="CyberSecurity Specialist">CyberSecurity Specialist</h2>
+            <p class="hero-subtitle">Certified Ethical Hacker • Digital Forensics Engineer • GRC Operations</p>
+            <a href="assets/Mohamed Alkhamisy CV.pdf" target="_blank" class="cta-button">View my CV</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title fade-in">About Me</h2>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p>Hello! I'm Mohamed.</p>
+                    <p>My friends and colleagues call me Kudo. I am a Cybersecurity Engineer based in Cairo, Egypt, dedicated to building secure foundations for modern businesses.</p>
+                    <p>My work sits at the intersection of offensive security, digital forensics, and strategic governance. As a Certified Ethical Hacker, I have a deep understanding of the threat landscape, and I am driven to leverage this knowledge to secure organizations from every angle.</p>
+                    <p>I'm not just about the code, though. My background in business and web development means I understand the full lifecycle of the projects I'm securing. I've led multiple teams, and I pride myself on being a versatile teammate who knows how to read the room: I match that energy to get the job done.</p>
+                    <p>Whether I am conducting penetration tests, analyzing forensic data, or advising on GRC frameworks, my goal remains the same: to deliver practical, robust security solutions that protect data and enable business growth.</p>
+                </div>
+                <div class="about-image fade-in">
+                    <div class="image-container">
+                        <img src="assets/about-me.jpg" alt="Mohamed Alkhamisy" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <h2 class="section-title fade-in">Services</h2>
+            <div class="services-grid">
+                <div class="service-item fade-in">
+                    <div class="service-icon">🔒</div>
+                    <h3>Penetration Testing</h3>
+                    <p>Comprehensive security testing to identify vulnerabilities before attackers do.</p>
+                </div>
+                <div class="service-item fade-in">
+                    <div class="service-icon">🔎</div>
+                    <h3>Incident Forensics</h3>
+                    <p>Specialized post-breach analysis and evidence recovery to identify threat actor patterns and secure critical assets.</p>
+                </div>
+                <div class="service-item fade-in">
+                    <div class="service-icon">📊</div>
+                    <h3>Security Auditing</h3>
+                    <p>In-depth security assessments and compliance audits for regulatory requirements.</p>
+                </div>
+                <div class="service-item fade-in">
+                    <div class="service-icon">🎓</div>
+                    <h3>Security Training</h3>
+                    <p>Custom security awareness training and technical workshops for development teams.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Technical Expertise Section -->
+    <section id="expertise" class="expertise section">
+        <div class="container">
+            <h2 class="section-title fade-in">Technical Expertise</h2>
+            
+            <!-- Skills Subsection -->
+            <h3 class="subsection-title fade-in">Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card fade-in">
+                    <h3>Offensive Security</h3>
+                    <ul class="skill-list">
+                        <li>Penetration Testing</li>
+                        <li>Vulnerability Assessment</li>
+                        <li>Network Enumeration</li>
+                    </ul>
+                </div>
+                <div class="skill-card fade-in">
+                    <h3>Digital Forensics</h3>
+                    <ul class="skill-list">
+                        <li>Evidence Acquisition</li>
+                        <li>Incident Response</li>
+                        <li>Log Analysis (SIEM)</li>
+                    </ul>
+                </div>
+                <div class="skill-card fade-in">
+                    <h3>GRC Operations</h3>
+                    <ul class="skill-list">
+                        <li>Risk Management</li>
+                        <li>Regulatory Compliance</li>
+                        <li>Policy Development</li>
+                    </ul>
+                </div>
+                <div class="skill-card fade-in">
+                    <h3>Programming & Scripting</h3>
+                    <ul class="skill-list">
+                        <li>C, C++, Assembly</li>
+                        <li>Python, bash</li>
+                        <li>PHP, MySQL, JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Tools & Frameworks Subsection -->
+            <h3 class="subsection-title fade-in">Tools & Frameworks</h3>
+            <div class="tools-grid">
+                <div class="tool-card fade-in">
+                    <div class="tool-icon">🛠️</div>
+                    <h3>Penetration Testing Tools</h3>
+                    <div class="tool-items">
+                        <div class="tool-item">
+                            <img src="assets/icons/nmap.svg" alt="Nmap" class="tool-logo">
+                            <span class="tool-name">Nmap</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/burpsuite.svg" alt="Burp Suite" class="tool-logo">
+                            <span class="tool-name">Burp Suite</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/Metasploit.svg" alt="Metasploit" class="tool-logo">
+                            <span class="tool-name">Metasploit</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/kali-linux.svg" alt="Kali Linux" class="tool-logo">
+                            <span class="tool-name">Kali Linux</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/Acunetix.png" alt="Acunetix" class="tool-logo">
+                            <span class="tool-name">Acunetix</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/Nessus.svg" alt="Nessus" class="tool-logo">
+                            <span class="tool-name">Nessus</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tool-card fade-in">
+                    <div class="tool-icon">🔬</div>
+                    <h3>Digital Forensics Tools</h3>
+                    <div class="tool-items">
+                        <div class="tool-item">
+                            <img src="assets/icons/autopsy.svg" alt="Autopsy" class="tool-logo">
+                            <span class="tool-name">Autopsy</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/FTK Imager.png" alt="FTK Imager" class="tool-logo">
+                            <span class="tool-name">FTK Imager</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/Wireshark.png" alt="Wireshark" class="tool-logo">
+                            <span class="tool-name">Wireshark</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/volatility.png" alt="Volatility" class="tool-logo">
+                            <span class="tool-name">Volatility</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/Splunk.svg" alt="Splunk" class="tool-logo">
+                            <span class="tool-name">Splunk</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tool-card fade-in grc-card">
+                    <div class="tool-icon">📋</div>
+                    <h3>GRC Frameworks</h3>
+                    <div class="tool-items">
+                        <div class="tool-item">
+                            <img src="assets/icons/ISO 27001.svg" alt="ISO 27001" class="tool-logo">
+                            <span class="tool-name">ISO 27001</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/NIST.svg" alt="NIST" class="tool-logo">
+                            <span class="tool-name">NIST</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/GDPR.png" alt="GDPR" class="tool-logo">
+                            <span class="tool-name">GDPR</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/PCI DSS.svg" alt="PCI DSS" class="tool-logo">
+                            <span class="tool-name">PCI DSS</span>
+                        </div>
+                        <div class="tool-item">
+                            <img src="assets/icons/HIPAA.png" alt="HIPAA" class="tool-logo">
+                            <span class="tool-name">HIPAA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title fade-in">Experience</h2>
+            
+            <!-- Specialized Training Subsection -->
+            <h3 class="subsection-title fade-in">Specialized Training</h3>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Dec – Present</span>
+                        <span class="timeline-year">2025</span>
+                        <h3>Digital Forensics Training</h3>
+                        <h4>DEPI - Global Knowledge</h4>
+                        <p>Studied the comprehensive CHFI curriculum with a heavy focus on practical execution. Completed Intensive hands-on labs to simulate real-world forensic scenarios, mastering Industry-Standard Toolkit for evidence recovery and incident response.</p>
+                        <a href="" target="_blank" class="timeline-button">View Certificate</a>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jul - Aug</span>
+                        <span class="timeline-year">2025</span>
+                        <h3>GRC Bootcamp</h3>
+                        <h4>WE Innovate - ZeroSploit</h4>
+                        <p>Completed an intensive 120-hour deep dive into the full GRC landscape. The program focused heavily on real-world scenarios, through comprehensive scenario-based tasks, simulating real-world governance, risk, and compliance challenges.</p>
+                        <a href="assets/GRC Bootcamp.pdf" target="_blank" title="GRC Bootcamp" class="timeline-button">View Certificate</a>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jan - Jun</span>
+                        <span class="timeline-year">2024</span>
+                        <h3>Web Developer Internship</h3>
+                        <h4>Eye Advertising</h4>
+                        <p>Developed and maintained multiple web applications alongside expert teams, with a specific focus on implementing security controls and optimizing performance.</p>
+                        <a href="assets/Eye Internship.pdf" target="_blank" class="timeline-button">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projects Subsection -->
+            <h3 class="subsection-title fade-in">Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <h3>Crypto</h3>
+                        <span class="project-subtitle">Ransomware PoC</span>
+                    </div>
+                    <p class="project-description">Encryption / Decryption hidden software that works in Windows and Linux using XOR algorithm</p>
+                    <div class="project-tech">
+                        <div class="tech-badges">
+                            <span class="tech-badge">C++</span>
+                            <span class="tech-badge">Assembly</span>
+                        </div>
+                        <a href="https://github.com/IkudoJR/Crypto" target="_blank" class="github-button">View on Github</a>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <div class="project-header">
+                        <h3>Keylogger</h3>
+                        <span class="project-subtitle">Server-Client Keylogger</span>
+                    </div>
+                    <p class="project-description">Hidden Server-Client Keylogger that logs and saves pressed keys into a file then send the data to the server</p>
+                    <div class="project-tech">
+                        <div class="tech-badges">
+                            <span class="tech-badge">C++</span>
+                        </div>
+                        <a href="https://github.com/IkudoJR/Server-Client-Keylogger" target="_blank" class="github-button">View on Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates section">
+        <div class="container">
+            <h2 class="section-title fade-in">Certificates</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card fade-in">
+                    <img src="assets/icons/CEH-badge.png" alt="CEH Logo" class="cert-logo-img">
+                    <h4 class="cert-title">Certified Ethical Hacker</h4>
+                    <p class="cert-issuer">EC-Council</p>
+                    <a href="assets/Certified Ethical Hacker.pdf" target="_blank" class="verify-button">Verify</a>
+                </div>
+                <div class="certificate-card fade-in">
+                    <img src="assets/icons/CC-badge.png" alt="CC Logo" class="cert-logo-img">
+                    <h4 class="cert-title">Certified In Cybersecurity</h4>
+                    <p class="cert-issuer">ISC2</p>
+                    <a href="assets/Certified In Cybersecurity.pdf" target="_blank" class="verify-button">Verify</a>
+                </div>
+                <div class="certificate-card fade-in">
+                    <img src="assets/icons/CFB-badge.png" alt="CFB Logo" class="cert-logo-img">
+                    <h4 class="cert-title">Cybersecurity for beginners</h4>
+                    <p class="cert-issuer">MaharaTech - ITI</p>
+                    <a href="assets/Cybersecurity for beginners.pdf" target="_blank" class="verify-button">Verify</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 IkudoJR. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
