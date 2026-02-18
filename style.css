@@ -1156,6 +1156,16 @@ body::before {
         grid-template-columns: 1fr;
     }
 
+        .project-tech {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .github-button {
+        width: 100%;
+        text-align: center;
+    }
+    
     .certificates-grid {
         grid-template-columns: 1fr;
     }
@@ -1218,5 +1228,6 @@ body::before {
         height: 280px;
     }
 }
+
 
 
