@@ -1050,7 +1050,6 @@ body::before {
     background: var(--bg-secondary);
     padding: 30px 0;
     text-align: center;
-    border-top: 2px solid var(--accent-color);
 }
 
 .footer p {
@@ -1215,3 +1214,4 @@ body::before {
         height: 280px;
     }
 }
+
